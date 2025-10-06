@@ -1,0 +1,28 @@
+{
+  "name": "mediapp",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Mini Projeto da Disciplina Programacao II",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["./__tests__/database"]
+  },
+  "author": "Eduarda Telk",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jest": "^30.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb-memory-server": "^10.2.1",
+    "mongoose": "^8.16.5",
+    "multer": "^2.0.2",
+    "next": "^15.5.3",
+    "path": "^0.12.7",
+    "pdfkit": "^0.17.2",
+    "process": "^0.11.10"
+  }
+}
